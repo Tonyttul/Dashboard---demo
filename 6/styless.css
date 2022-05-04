@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: 1.3fr 5fr;
+    height: 100vh;
+}
+.side-bar1 {
+    width: 300px;
+}
+.side-bar1 .logo {
+    margin: 30px 0px 50px 35px;
+}
+.side-bar1 h3 {
+    margin: 60px 0px 20px 35px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.dashboard {
+    display: flex;
+    align-items: center;
+    margin: 10px 35px;
+    gap: 27px;
+}
+.first {
+    background-color: rgba(255, 192, 203, 0.2);
+    border-radius: 10px;
+    height: 48px;
+    /* margin-top: 5px; */
+    padding: 0 20px;
+    width: 220px;
+}
+.plan, .purse, .transaction, .bank {
+    /* background-color: rgba(255, 192, 203, 0.2);
+    border-radius: 10px; */
+    height: 48px;
+    /* margin-top: 5px; */
+    padding: 0 20px;
+    width: 250px;
+}
+.girl, .profile, .portfolio, .about {
+    /* background-color: rgba(255, 192, 203, 0.2);
+    border-radius: 10px; */
+    height: 48px;
+    /* margin-top: 5px; */
+    padding: 0 20px;
+    width: 250px;
+}
+.support, .log {
+    /* background-color: rgba(255, 192, 203, 0.2);
+    border-radius: 10px; */
+    height: 48px;
+    /* margin-top: 5px; */
+    padding: 0 20px;
+    width: 250px;
+}
+.same {
+    font-size: 14px;
+}
+.aside {
+    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.02);
+    min-width: 1000px;
+}
+.img2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 2rem;
+}
+span {
+    font-weight: bold;
+    font-size: 16px;
+}
+.main-flex2 {
+    background: url(./images/Group\ 68.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+    margin-top: 10px;
+    gap: 70px;
+    border-radius: 10px;
+    height: 200px;
+    line-height: 30px;
+    
+}
+.main-flex2 p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.main-flex2 h4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.watch {
+    line-height: 35px;
+    margin-top: 45px;
+    font-size: 18.5px;
+}
+.goal {
+    font-size: 14px;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+}
+.aside .imgflex {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 180, 225, 0.4);
+    display: grid;
+    place-items: center;
+}
+.grid-box1 {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px 20px;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 10px;
+    position: relative;
+}
+.grid-flex1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;  
+}
+.blank {
+    border: 2px solid green;
+}
+.sunny {
+    color: black;
+}
+.naira {
+    color: black;
+    font-size: 20px;
+    line-height: 65px;
+}
+.color1 {
+    height: 180px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    padding: 20px;
+}
+.color2 {
+    height: 180px;
+    background-color: rgba(0, 0, 225, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+.color3 {
+    height: 180px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+.font {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 27px;
+}
+.font1 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 27px;
+    color: palevioletred;
+}
+.earn {
+    font-size: 11px;
+}
+.grid-box .content::after {
+    content: ">";
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    z-index: 1;
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+}
+.share {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 35px;
+}
+.last {
+    background-color: palevioletred;
+    height: 30px;
+    width: 95px;
+    padding: 3px 9px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lastlast {
+    padding: 8px 10px;
+}
+
